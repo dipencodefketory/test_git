@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
+    <meta name="Author" content="Spruko Technologies Private Limited">
+    <meta name="Keywords" content="bootstrap admin panel template,bootstrap admin template premium,bootstrap backend template,bootstrap dashboard template,bootstrap panel template,dashboard admin bootstrap 4,dashboard template bootstrap 4,html css dashboard template,html dashboard template,html web app template,modern admin template,nice admin template,simple bootstrap admin template,simple dashboard html template,simple dashboard template bootstrap,template dashboard bootstrap 4"
+    />
+
+    <!-- Title -->
+    <title> Admix - Admin Panel html template </title>
+
+    <!--- Favicon -->
+    <link rel="icon" href="../assets/img/brand/favicon.png" type="image/x-icon" />
+
+    <!--- Icons css -->
+    <link href="../assets/css/icons.css" rel="stylesheet">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- Select2 css -->
+    <link href="../assets/plugins/select2/css/select2.min.css" rel="stylesheet">
+
+    <!-- Internal Sumoselect css -->
+    <link rel="stylesheet" href="../assets/plugins/sumoselect/sumoselect.css">
+
+    <!--- Right-sidemenu css -->
+    <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
+    <!--- Custom Scroll bar -->
+    <link href="../assets/plugins/mscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+
+    <!--- Style css -->
+    <link rel="stylesheet" type="text/css" media="all" href="../assets/css/style.css">
+
+    <!-- Colors css -->
+    <link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/css/colors/color.css">
+
+    <!--- Skinmodes css -->
+    <link href="../assets/css/skin-modes.css" rel="stylesheet">
+
+    <!--- Darktheme css -->
+    <link href="../assets/css/style-dark.css" rel="stylesheet">
+
+    <!--- Sidemenu css -->
+    <link rel="stylesheet" href="../assets/css/single-sidemenu/singlemenu.css">
+
+    <!--  Map css-->
+    <link href="../assets/plugins/jqvmap/jqvmap.min.css" rel="stylesheet">
+
+    <!--- Animations css -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+
+    <link href="../assets/css/add-exam.css" rel="stylesheet">
+
+</head>
+
+<body class="main-body app sidebar-mini">
+    <!-- Page -->
+    <div class="page">
+
+        <!-- Loader -->
+        <div id="global-loader">
+            <img src="../assets/img/loader.svg" class="loader-img" alt="Loader">
+        </div>
+        <!-- /Loader -->
+
+        <!-- main-sidebar -->
+        <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+        <aside class="app-sidebar sidebar-scroll">
+            <div class="main-sidebar-header active">
+                <a class="desktop-logo logo-light active" href="index.html"><img src="../assets/img/brand/logo.png" class="main-logo" alt="logo"></a>
+                <a class="desktop-logo logo-dark active" href="index.html"><img src="../assets/img/brand/logo-white.png" class="main-logo dark-theme" alt="logo"></a>
+                <a class="logo-icon mobile-logo icon-light active" href="index.html"><img src="../assets/img/brand/favicon.png" class="logo-icon" alt="logo"></a>
+                <a class="logo-icon mobile-logo icon-dark active" href="index.html"><img src="../assets/img/brand/favicon-white.png" class="logo-icon dark-theme" alt="logo"></a>
+            </div>
+
+        </aside>
+        <!-- main-sidebar -->
+
+        <!-- Main-content -->
+        <div class="main-content singlemenu">
+            <div class="main-header main-header-fixed">
+                <div class="container-fluid">
+                    <div class="main-header-left">
+                        <a href="#" data-toggle="sidebar" class="nav-link icon toggle pl-0"><svg class="svg-icon" xmlns="http:/www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg></a>
+                    </div>
+                    <!-- Sidebar toggle closed -->
+                    <div class="main-header-center">
+                        <div class="header-breadcrumb">
+                            <h5 class="mb-1">Dashboard</h5>
+                            <div class="main-content-breadcrumb"> <span>Dashboard</span> <span>Analytics</span> </div>
+                        </div>
+                        <div class="responsive-logo">
+                            <a href="index.html"><img src="../assets/img/brand/logo.png" class="mobile-logo" alt="logo"></a>
+                        </div>
+                    </div>
+                    <!-- breadcrumb closed -->
+
+                </div>
+            </div>
+            <!-- Main-header closed -->
+
+            <!-- Container-fluid -->
+            <div class="container-fluid">
+
+                <!-- Main-content-body -->
+                <div class="main-content-body">
+
+                    <!-- row -->
+                    <div class="row row-sm ">
+                        <div class="col-12">
+                            <div class="card audiencemetric">
+                                <div class="card-body pb-3 ">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="add__exam-form">
+                                                <h5 class="card-title mb-5">EXAM DETAILS</h5>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <label class="main-content-label">Subject Name :</label>
+                                                        <select name="somename" class="form-control SlectBox">
+                                                            <!--placeholder-->
+                                                            <option title="Volvo is a car"  value="volvo">Volvo</option>
+                                                            <option value="saab">Saab</option>
+                                                            <option value="mercedes">Mercedes</option>
+                                                            <option value="audi">Audi</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label">Exam Name :</label>
+                                                            <input class="form-control" required="true" type="text">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label mb-4">Exam Type :</label>
+                                                            <div class="d-flex mt-3">
+                                                                <label class="rdiobox mr-5"><input name="examtype" type="radio" checked> <span>Custom</span></label>
+                                                                <label class="rdiobox"><input id="random" name="examtype" type="radio"> <span>Random</span></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr class="mb-5">
+                                                <h5 class="card-title mb-5">EXAM Configuration</h5>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label">Total Question :</label>
+                                                            <input class="form-control" required="true" type="number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label">Total Exam Time :</label>
+                                                            <input class="form-control total-time" required="true" type="time" placeholder="HH/MM">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group question-wise">
+                                                            <label class="main-content-label">&nbsp;</label>
+                                                            <label class="ckbox"><input name="question-wise-time" type="checkbox"><span>Question Wise Time :</span></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row quescat">
+                                                    <div class="col-12 col-lg-6 mb-4">
+                                                        <div class="form-group">
+                                                            <div class="d-flex mt-3">
+                                                                <label class="rdiobox mr-5"><input name="eachall" type="radio" checked="checked"> <span>Category Type Marks</span></label>
+                                                                <label class="rdiobox"><input id="eachques" name="eachall" type="radio"> <span>Each Question Marks</span></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label">Basic Question :</label>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <input class="form-control text-center" required="true" type="number" placeholder="Total Questions">
+                                                                </div>
+                                                                <div class="col maksbox">
+                                                                    <input class="form-control text-center" required="true" type="number" placeholder="Marks">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label">Intermediate Question :</label>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <input class="form-control text-center" required="true" type="number" placeholder="Total Questions">
+                                                                </div>
+                                                                <div class="col maksbox">
+                                                                    <input class="form-control text-center" required="true" type="number" placeholder="Marks">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label">Advance Question :</label>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <input class="form-control text-center" required="true" type="number" placeholder="Total Questions">
+                                                                </div>
+                                                                <div class="col maksbox">
+                                                                    <input class="form-control text-center" required="true" type="number" placeholder="Marks">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4 maksbox">
+                                                        <div class="form-group">
+                                                            <label class="main-content-label">Total Exam Marks :</label>
+                                                            <input class="form-control" required="true" type="text" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                                        <div class="form-group negative-marking">
+                                                            <label class="ckbox"><input name="nagative-mark" checked type="checkbox"><span>Allow Negative Marking :</span></label>
+                                                            <input class="form-control nagative-mark-add" readonly="true" required="true" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="d-flex add__exam-form-action">
+                                                            <a href="javascript:void(0);" class="btn btn-primary">Next</a>
+                                                            <a href="javascript:void(0);" class="btn btn-danger close-action">Close</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- Main-content-body closed -->
+            </div>
+            <!-- Container-fluid closed -->
+        </div>
+        <!-- Main-content closed -->
+
+        <!-- Footer opened -->
+        <div class="main-footer ht-40">
+            <div class="container-fluid pd-t-0-f ht-100p">
+                <span>Copyright &copy; 2020  <a href="#">Admix</a>. Designed by <a href="https:/www.spruko.com/">Spruko</a> All rights reserved.</span>
+            </div>
+        </div>
+        <!-- Footer closed -->
+
+    </div>
+    <!-- Page closed -->
+
+    <!--- Back-to-top -->
+    <a href="#top" id="back-to-top"><i class="las la-angle-double-up"></i></a>
+
+    <!-- JQuery min js -->
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Popper js -->
+    <script src="../assets/plugins/popper/popper.min.js"></script>
+
+    <!-- Bootstrap Bundle js -->
+    <script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Internal Form-elements js -->
+    <script src="../assets/js/advanced-form-elements.js"></script>
+    <script src="../assets/js/select2.js"></script>
+
+    <!-- Internal Sumoselect js -->
+    <script src="../assets/plugins/sumoselect/jquery.sumoselect.js"></script>
+
+    <!-- Ionicons js -->
+    <script src="../assets/plugins/ionicons/ionicons.js"></script>
+
+    <!-- Moment js -->
+    <script src="../assets/plugins/moment/moment.js"></script>
+    <script src="../assets/plugins/ionicons/ionicons.js"></script>
+    <script src="../assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <script src="../assets/plugins/raphael/raphael.min.js"></script>
+    <script src="../assets/plugins/peity/jquery.peity.min.js"></script>
+    <script src="../assets/plugins/chart.js/Chart.bundle.min.js"></script>
+
+    <!-- Perfect-scrollbar js -->
+    <script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="../assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+    <!-- Flot js-->
+    <script src="../assets/plugins/jquery.flot/jquery.flot.js"></script>
+    <script src="../assets/plugins/jquery.flot/jquery.flot.pie.js"></script>
+    <script src="../assets/plugins/jquery.flot/jquery.flot.resize.js"></script>
+    <script src="../assets/plugins/jquery.flot/jquery.flot.categories.js"></script>
+
+    <!-- Sidemenu js -->
+    <script src="../assets/plugins/side-menu/single-menu.js"></script>
+
+    <!-- Sidebar js -->
+    <script src="../assets/plugins/sidebar/sidebar.js"></script>
+    <script src="../assets/plugins/sidebar/sidebar-custom.js"></script>
+
+    <!-- Rating js-->
+    <script src="../assets/plugins/rating/jquery.rating-stars.js"></script>
+    <script src="../assets/plugins/rating/jquery.barrating.js"></script>
+
+    <!-- Tooltip js -->
+    <script src="../assets/js/tooltip.js"></script>
+
+    <!-- Apexchart js-->
+    <script src="../assets/js/apexcharts.js"></script>
+
+    <!--- Internal Vector-maps js -->
+    <script src="../assets/plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="../assets/plugins/jqvmap/maps/jquery.vmap.world.js"></script>
+
+    <!--- Index js -->
+    <script src="../assets/js/index2.js"></script>
+    <script src="../assets/js/index-map.js"></script>
+    <script src="../assets/js/custom.js"></script>
+
+
+    <!--- Internal Vector-sampledata js -->
+    <script src="../assets/js/jquery.vmap.sampledata.js"></script>
+    <script>
+        $(function() {
+            $("input[name='eachall']").click(function() {
+                if ($("#eachques").is(":checked")) {
+                    $(".maksbox").hide();
+                } else {
+                    $(".maksbox").show();
+                }
+            });
+        });
+        $(function() {
+            $("input[name='question-wise-time']").click(function() {
+                if($(this).is(':checked')){
+                    $(".total-time").prop('readonly', true);
+                } else {
+                    $(".total-time").prop('readonly', false);
+                }
+            });
+        });
+        $(function() {
+            $("input[name='nagative-mark']").click(function() {
+                if($(this).is(':checked')){
+                    $(".nagative-mark-add").prop('readonly', true);
+                } else {
+                    $(".nagative-mark-add").prop('readonly', false);
+                }
+            });
+        });
+        
+        $(function() {
+            $("input[name='examtype']").click(function() {
+                if ($("#random").is(":checked")) {
+                    $(".question-wise").hide();
+                    $(".quescat").hide();
+                    $(".maksbox").show();
+
+                } else {
+                    $(".quescat").show();
+                    $(".question-wise").show();
+                    if ($("#eachques").is(":checked")) {
+                        
+                        $(".maksbox").hide();
+                    } else {
+                        $(".maksbox").show();
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
